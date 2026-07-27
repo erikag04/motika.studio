@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Erika Galán — Graphic Designer & Video Editor</title>
+  <meta name="description" content="Portfolio of Erika Galán, graphic designer and video editor based in Barcelona." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles1.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">MOTIKA <span class="nav-year">2026<span class="nav-year-sq"></span></span></a>
+    <div class="nav-links">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#projects" data-i18n="nav.work">Work</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-status">
+      <span class="status-dot"></span>
+      <span data-i18n="nav.available">Available for work</span>
+    </div>
+    <div class="lang-switcher" id="langSwitcher">
+      <button class="lang-btn" data-lang="es">ES</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ca">CA</button>
+      <button class="lang-btn" data-lang="fr">FR</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+
+    <!-- Floating window 1 -->
+    <div class="window window-1" id="win1">
+      <div class="window-bar">
+        <span class="wb-dot wb-red"></span>
+        <span class="wb-dot wb-yellow"></span>
+        <span class="wb-dot wb-green"></span>
+        <span class="wb-title">about_me.txt</span>
+      </div>
+      <div class="window-body txt-file">
+        <p><span class="txt-label" data-i18n="hero.win1.name">NAME:</span> Erika Galán</p>
+        <p><span class="txt-label" data-i18n="hero.win1.role">ROLE:</span> <span data-i18n="hero.win1.roleval">Graphic Designer + Video Editor</span></p>
+        <p><span class="txt-label" data-i18n="hero.win1.base">BASE:</span> <span data-i18n="hero.win1.baseval">Barcelona, Spain</span></p>
+        <p><span class="txt-label" data-i18n="hero.win1.status">STATUS:</span> <span class="txt-green" data-i18n="hero.win1.statusval">Available ●</span></p>
+      </div>
+    </div>
+
+    <!-- Floating window 2 -->
+    <div class="window window-2" id="win2">
+      <div class="window-bar">
+        <span class="wb-dot wb-red"></span>
+        <span class="wb-dot wb-yellow"></span>
+        <span class="wb-dot wb-green"></span>
+        <span class="wb-title">skills_preview.png</span>
+      </div>
+      <div class="window-body skills-preview">
+        <span class="skill-tag" data-i18n="skills.branding">Branding</span>
+        <span class="skill-tag" data-i18n="skills.editorial">Editorial</span>
+        <span class="skill-tag" data-i18n="skills.motion">Motion</span>
+        <span class="skill-tag" data-i18n="skills.social">Social Media</span>
+        <span class="skill-tag" data-i18n="skills.illustration">Illustration</span>
+      </div>
+    </div>
+
+    <div class="hero-center">
+      <div class="hero-identity">
+        <!-- Photo placeholder -->
+        <div class="hero-photo">
+          <div class="hero-photo-inner">
+            <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-photo-placeholder">
+              <circle cx="50" cy="38" r="22" fill="var(--accent-mid)" opacity="0.4"/>
+              <ellipse cx="50" cy="95" rx="32" ry="22" fill="var(--accent-mid)" opacity="0.3"/>
+            </svg>
+            <span class="hero-photo-hint" data-i18n="hero.photoHint">Your photo here</span>
+          </div>
+        </div>
+        <div class="hero-text-block">
+          <p class="hero-eyebrow" data-i18n="hero.eyebrow">Graphic Designer &amp; Video Editor</p>
+          <h1 class="hero-name morphing-title" data-i18n-html="hero.title">Erika<br/><em>Galán</em></h1>
+          <p class="hero-sub" data-i18n-html="hero.subtitle">Creating visual identities, editorial systems,<br/>and motion pieces — from Barcelona</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn-primary" data-i18n="hero.cta.work">View Work</a>
+            <a href="#contact" class="btn-ghost" data-i18n="hero.cta.contact">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span data-i18n="hero.scroll">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-intro">
+        <h2 class="about-heading morphing-title" data-i18n-html="about.heading">Designing with<br/><em>intention</em></h2>
+        <p class="about-body" data-i18n="about.body1">Hi, I'm Erika — a graphic designer and video editor based in Barcelona. I work at the intersection of brand identity, editorial design, and visual storytelling. I believe good design is invisible: it guides, communicates, and moves people without them realising why.</p>
+        <p class="about-body" data-i18n="about.body2">Whether it's a brand system from scratch, a magazine layout, a social campaign, or a short film — I bring the same care to every pixel and every frame.</p>
+      </div>
+
+      <div class="about-side">
+        <div class="window window-skills">
+          <div class="window-bar">
+            <span class="wb-dot wb-red"></span>
+            <span class="wb-dot wb-yellow"></span>
+            <span class="wb-dot wb-green"></span>
+            <span class="wb-title">skills.app</span>
+          </div>
+          <div class="window-body">
+            <div class="skills-section">
+              <p class="skills-cat" data-i18n="about.cat.design">Design</p>
+              <div class="skills-list">
+                <div class="skill-item"><span data-i18n="about.skill.brand">Brand Identity</span><div class="skill-bar"><div class="skill-fill" style="--w:95%"></div></div></div>
+                <div class="skill-item"><span data-i18n="about.skill.editorial">Editorial / Layout</span><div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div></div>
+                <div class="skill-item"><span data-i18n="about.skill.social">Social Media Design</span><div class="skill-bar"><div class="skill-fill" style="--w:92%"></div></div></div>
+                <div class="skill-item"><span data-i18n="about.skill.illustration">Illustration</span><div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div></div>
+                <div class="skill-item"><span data-i18n="about.skill.event">Event Design</span><div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div></div>
+              </div>
+            </div>
+            <div class="skills-section">
+              <p class="skills-cat" data-i18n="about.cat.motion">Motion &amp; Multimedia</p>
+              <div class="skills-list">
+                <div class="skill-item"><span data-i18n="about.skill.video">Video Editing</span><div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div></div>
+                <div class="skill-item"><span data-i18n="about.skill.motiongraphics">Motion Graphics</span><div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div></div>
+              </div>
+            </div>
+            <div class="skills-section">
+              <p class="skills-cat" data-i18n="about.cat.tools">Tools</p>
+              <div class="tools-grid">
+                <span class="tool-chip">Illustrator</span>
+                <span class="tool-chip">Photoshop</span>
+                <span class="tool-chip">InDesign</span>
+                <span class="tool-chip">Figma</span>
+                <span class="tool-chip">Premiere Pro</span>
+                <span class="tool-chip">After Effects</span>
+                <span class="tool-chip">Lightroom</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-cards">
+      <div class="info-card">
+        <div class="info-card-header">
+          <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <span data-i18n="about.card.education">Education</span>
+        </div>
+        <div class="info-card-items">
+          <div class="info-item">
+            <p class="info-title" data-i18n="about.edu1.title">Degree in Graphic Design</p>
+            <p class="info-sub" data-i18n="about.edu1.sub">Escola Superior de Disseny · 2020–2024</p>
+          </div>
+          <div class="info-item">
+            <p class="info-title" data-i18n="about.edu2.title">Video Editing & Post-Production</p>
+            <p class="info-sub" data-i18n="about.edu2.sub">Online Course / Self-taught · 2022–present</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="info-card-header">
+          <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+          <span data-i18n="about.card.experience">Experience</span>
+        </div>
+        <div class="info-card-items">
+          <div class="info-item">
+            <p class="info-title" data-i18n="about.exp1.title">Freelance Graphic Designer</p>
+            <p class="info-sub" data-i18n="about.exp1.sub">Self-employed · 2022–present</p>
+          </div>
+          <div class="info-item">
+            <p class="info-title" data-i18n="about.exp2.title">Junior Designer</p>
+            <p class="info-sub" data-i18n="about.exp2.sub">Studio / Agency · 2023–2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="info-card-header">
+          <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/><path d="M2 12h20"/></svg>
+          <span data-i18n="about.card.languages">Languages</span>
+        </div>
+        <div class="info-card-items">
+          <div class="info-item lang-item">
+            <p class="info-title">Español</p>
+            <span class="lang-badge native" data-i18n="about.lang.native">Native</span>
+          </div>
+          <div class="info-item lang-item">
+            <p class="info-title">Català</p>
+            <span class="lang-badge native" data-i18n="about.lang.native">Native</span>
+          </div>
+          <div class="info-item lang-item">
+            <p class="info-title">English</p>
+            <span class="lang-badge advanced" data-i18n="about.lang.advanced">Advanced</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="projects-header">
+      <div class="section-label" data-i18n="projects.label">02 — Work</div>
+      <h2 class="projects-heading morphing-title" data-i18n-html="projects.heading">Selected <em>Projects</em></h2>
+    </div>
+
+    <div class="project-filters" id="projectTabs">
+      <button class="filter-btn active" data-cat="all" data-i18n="filter.all">All</button>
+      <button class="filter-btn" data-cat="branding" data-i18n="filter.branding">Branding</button>
+      <button class="filter-btn" data-cat="editorial" data-i18n="filter.editorial">Editorial</button>
+      <button class="filter-btn" data-cat="social" data-i18n="filter.social">Social Media</button>
+      <button class="filter-btn" data-cat="events" data-i18n="filter.events">Events</button>
+      <button class="filter-btn" data-cat="illustration" data-i18n="filter.illustration">Illustration</button>
+      <button class="filter-btn" data-cat="multimedia" data-i18n="filter.multimedia">Multimedia</button>
+    </div>
+
+    <!-- Bento showcase grid -->
+    <div class="showcase-grid" id="projectGrid">
+
+      <div class="sc-card sc-lg" data-cat="branding" data-title="Bloom Café — Brand Identity">
+        <div class="sc-bg" style="background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Branding</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Bloom Café">Bloom Café</h3>
+          <p class="sc-desc">Brand Identity · Logo · Packaging</p>
+          <span class="sc-year">2025</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-sm sc-tall" data-cat="branding" data-title="Nova Studio — Visual Identity">
+        <div class="sc-bg" style="background: linear-gradient(145deg, #0F2027, #203A43, #2C5364)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Branding</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Nova Studio">Nova Studio</h3>
+          <p class="sc-desc">Visual Identity · Brand System</p>
+          <span class="sc-year">2025</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-wide" data-cat="social" data-title="Mara Skincare — Social Media Campaign">
+        <div class="sc-bg" style="background: linear-gradient(120deg, #E0C3FC 0%, #8EC5FC 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Social Media</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Mara Skincare">Mara Skincare</h3>
+          <p class="sc-desc">Social Media · Instagram · Feed Design</p>
+          <span class="sc-year">2025</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-sm" data-cat="events" data-title="Nit de Disseny — Event Branding">
+        <div class="sc-bg" style="background: linear-gradient(135deg, #1A001E 0%, #7B0045 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Events</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Nit de Disseny">Nit de Disseny</h3>
+          <p class="sc-desc">Event Branding · Poster</p>
+          <span class="sc-year">2024</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-sm" data-cat="editorial" data-title="Forma Magazine — Editorial Design">
+        <div class="sc-bg" style="background: linear-gradient(135deg, #667EEA 0%, #764BA2 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Editorial</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Forma">Forma</h3>
+          <p class="sc-desc">Magazine · Layout · Typography</p>
+          <span class="sc-year">2024</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-lg" data-cat="multimedia" data-title="Quiet Hours — Short Film">
+        <div class="sc-bg" style="background: linear-gradient(160deg, #0D0D0D 0%, #1A2A1A 60%, #2E5038 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Multimedia</div>
+        <div class="sc-play">▶</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Quiet Hours">Quiet Hours</h3>
+          <p class="sc-desc">Short Film · Video Editing · Colour Grade</p>
+          <span class="sc-year">2025</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-sm sc-tall" data-cat="illustration" data-title="Botanical Series — Illustration">
+        <div class="sc-bg" style="background: linear-gradient(160deg, #F9A8D4 0%, #EC4899 50%, #9333EA 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Illustration</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Botanical">Botanical</h3>
+          <p class="sc-desc">Digital Illustration · Print Series</p>
+          <span class="sc-year">2024</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-wide" data-cat="editorial" data-title="Arrel — Book Design">
+        <div class="sc-bg" style="background: linear-gradient(110deg, #F6D365 0%, #FDA085 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Editorial</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Arrel">Arrel</h3>
+          <p class="sc-desc">Book Design · Cover · Interior Layout</p>
+          <span class="sc-year">2024</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-md" data-cat="social" data-title="Pulse Music — Content Strategy">
+        <div class="sc-bg" style="background: linear-gradient(135deg, #FF416C 0%, #FF4B2B 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Social</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Pulse Music">Pulse Music</h3>
+          <p class="sc-desc">Reels · Stories · Content</p>
+          <span class="sc-year">2025</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-md" data-cat="illustration" data-title="Character Design — Personal">
+        <div class="sc-bg" style="background: linear-gradient(135deg, #11998E 0%, #38EF7D 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Illustration</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Characters">Characters</h3>
+          <p class="sc-desc">Character Design · Personal</p>
+          <span class="sc-year">2023–24</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+      <div class="sc-card sc-md" data-cat="multimedia" data-title="Marca Viva — Motion Graphics">
+        <div class="sc-bg" style="background: linear-gradient(135deg, #1A1A2E 0%, #16213E 40%, #0F3460 100%)"></div>
+        <div class="sc-noise"></div>
+        <div class="sc-label">Motion</div>
+        <div class="sc-body">
+          <h3 class="sc-title" data-text="Marca Viva">Marca Viva</h3>
+          <p class="sc-desc">Motion Graphics · Brand Anim.</p>
+          <span class="sc-year">2025</span>
+        </div>
+        <div class="sc-cta">View ↗</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECT DETAIL PANEL (full-screen slide-over) -->
+  <div class="detail-panel" id="detailPanel" aria-hidden="true">
+
+    <!-- Top bar -->
+    <div class="detail-bar">
+      <button class="detail-back" id="detailBack">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        <span data-i18n="detail.backToWork">Back to work</span>
+      </button>
+      <span class="detail-counter" id="detailCounter"></span>
+      <div class="detail-nav">
+        <button class="detail-prev" id="detailPrev" title="Previous project">←</button>
+        <button class="detail-next" id="detailNext" title="Next project">→</button>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="detail-body">
+      <div class="detail-profile-shell">
+        <div class="detail-profile-header">
+          <div class="detail-profile-avatar" id="detailAvatar">EG</div>
+          <div class="detail-profile-meta">
+            <p class="detail-cat" id="detailCat"></p>
+            <h2 class="detail-title" id="detailTitle"></h2>
+            <p class="detail-year" id="detailYear"></p>
+            <div class="detail-profile-tabs" role="tablist" aria-label="Project sections">
+              <button class="detail-profile-tab active" type="button">Posts</button>
+              <button class="detail-profile-tab" type="button">Gallery</button>
+              <button class="detail-profile-tab" type="button">Stories</button>
+              <button class="detail-profile-tab" type="button">About</button>
+            </div>
+            <p class="detail-desc" id="detailDesc"></p>
+            <div class="detail-tags" id="detailTags"></div>
+          </div>
+        </div>
+
+        <div class="detail-collage" id="detailCollage">
+          <!-- Injected by JS -->
+        </div>
+
+        <div class="detail-footer">
+          <a href="#contact" class="btn-primary detail-cta" id="detailCta" data-i18n="detail.cta">Work together ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <div class="contact-hero">
+      <div class="contact-hero-inner">
+        <h2 class="contact-heading morphing-title" data-i18n-html="contact.heading">Let's make<br/><em>something</em></h2>
+        <div class="contact-sub-row">
+          <p class="contact-sub" data-i18n-html="contact.sub">Open for freelance, collaborations &amp; full-time.<br/>I usually reply within 24h.</p>
+          <a href="mailto:contacto.motika@gmail.com" class="contact-email-btn">contacto.motika@gmail.com ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-body">
+      <!-- Channels -->
+      <div class="contact-channels">
+        <a href="mailto:hola@erikagalan.com" class="contact-channel">
+          <span class="channel-label" data-i18n="contact.channel.email">Email</span>
+          <span class="channel-val">contacto.motika@gmail.com</span>
+          <span class="channel-arrow">↗</span>
+        </a>
+        <a href="https://linkedin.com/in/erikagalanperez" target="_blank" rel="noopener" class="contact-channel">
+          <span class="channel-label" data-i18n="contact.channel.linkedin">LinkedIn</span>
+          <span class="channel-val">linkedin.com/in/erikagalanperez</span>
+          <span class="channel-arrow">↗</span>
+        </a>
+        <a href="https://instagram.com/erikagalan" target="_blank" rel="noopener" class="contact-channel">
+          <span class="channel-label" data-i18n="contact.channel.instagram">Instagram</span>
+          <span class="channel-val">@motika.studio</span>
+          <span class="channel-arrow">↗</span>
+        </a>
+      </div>
+
+      <!-- Form -->
+      <div class="contact-form-wrap">
+        <div class="window window-contact">
+          <div class="window-bar">
+            <span class="wb-dot wb-red"></span>
+            <span class="wb-dot wb-yellow"></span>
+            <span class="wb-dot wb-green"></span>
+            <span class="wb-title">new_message.txt</span>
+          </div>
+          <div class="window-body">
+            <form class="contact-form" id="contactForm" action="https://formsubmit.co/contacto.motika@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="Nuevo mensaje desde MOTIKA" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fname" data-i18n="form.name.label">Name</label>
+                  <input type="text" id="fname" name="name" placeholder="Your name" data-i18n-placeholder="form.name.placeholder" required />
+                </div>
+                <div class="form-group">
+                  <label for="femail" data-i18n="form.email.label">Email</label>
+                  <input type="email" id="femail" name="email" placeholder="your@email.com" data-i18n-placeholder="form.email.placeholder" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="fmessage" data-i18n="form.message.label">Message</label>
+                <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project..." data-i18n-placeholder="form.message.placeholder" required></textarea>
+              </div>
+              <div class="form-footer">
+                <button type="submit" class="btn-primary form-submit" data-i18n="form.submit">Send Message →</button>
+                <p class="form-note" id="formNote"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-copy" data-i18n="footer.copy">© 2026 Erika Galán. All rights reserved.</p>
+    <p class="footer-made" data-i18n="footer.made">Designed &amp; built with love</p>
+  </footer>
+
+  <script src="translations.js"></script>
+  <script src="script1.js"></script>
+</body>
+</html>
